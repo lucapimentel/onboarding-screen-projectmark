@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Stepper from './Stepper';
+import Stepper from './stepper';
 import { STEPS } from '../utilities';
 import '@testing-library/jest-dom';
 

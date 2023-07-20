@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Column from './Column';
+import Column from './column';
 import { columnColorScheme } from '../utilities';
 import { IColumn } from '../types';
 import '@testing-library/jest-dom';

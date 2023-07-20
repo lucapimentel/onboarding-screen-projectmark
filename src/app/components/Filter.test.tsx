@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
-import Filter from './Filter';
+import Filter from './filter';
 import '@testing-library/jest-dom';
 
 it('renders filter options correctly', () => {

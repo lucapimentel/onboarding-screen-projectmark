@@ -1,5 +1,5 @@
 'use client'
-import styles from './Checkbox.module.css'
+import styles from './checkbox.module.css'
 
 type ICheckboxProps = {
     isDefaultChecked: boolean,

@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import Step from './Step';
+import Step from './step';
 import { IStepOption } from '../types';
 import '@testing-library/jest-dom';
 

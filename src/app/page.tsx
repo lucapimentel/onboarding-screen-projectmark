@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import logo from './images/project-logo.png';
-import Column from './components/Column';
-import Filter from './components/Filter';
-import Stepper from './components/Stepper';
+import Column from './components/column';
+import Filter from './components/filter';
+import Stepper from './components/stepper';
 import { COLUMNS } from './utilities';
 import styles from './page.module.css'
 

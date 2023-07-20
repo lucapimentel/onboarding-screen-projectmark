@@ -1,9 +1,9 @@
 'use client'
 
 import { useState } from 'react';
-import Checkbox from './Checkbox'
+import Checkbox from './checkbox';
 import { ICheckboxOption } from '../types';
-import styles from './Filter.module.css'
+import styles from './filter.module.css'
 
 const filterOptions: ICheckboxOption[] = [
     {

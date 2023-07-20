@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
-import Checkbox from './Checkbox';
+import Checkbox from './checkbox';
 
 it('renders Checkbox component with the correct label', () => {
     const expectedLabelValue = 'label'
