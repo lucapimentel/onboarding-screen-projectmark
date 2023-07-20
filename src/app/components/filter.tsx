@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Checkbox from './Checkbox'
 import { ICheckboxOption } from '../types';
-import styles from './filter.module.css'
+import styles from './Filter.module.css'
 
 const filterOptions: ICheckboxOption[] = [
     {

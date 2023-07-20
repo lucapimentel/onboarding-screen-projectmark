@@ -1,6 +1,6 @@
 import { IColumn } from "../types";
 import { columnColorScheme } from "../utilities";
-import styles from './column.module.css'
+import styles from './Column.module.css'
 
 type IColumnProps = {
     columnInfo: IColumn

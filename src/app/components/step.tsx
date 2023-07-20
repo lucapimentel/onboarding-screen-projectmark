@@ -1,5 +1,5 @@
 import { IStepOption } from '../types'
-import styles from './step.module.css'
+import styles from './Step.module.css'
 
 type IStepProps = {
     currentStep: IStepOption
