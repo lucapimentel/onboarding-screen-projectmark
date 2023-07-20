@@ -1,3 +1,21 @@
+## Project Description
+
+This project is part of the ProjectMark Frontend Challenge. The app was developed using Next.js with TypeScript and CSS. It focuses on creating a responsive and user-friendly experience.
+
+The project is deployed on Vercel you can check it here: 
+
+https://onboarding-screen-projectmark.vercel.app
+
+![image](https://github.com/lucapimentel/onboarding-screen-projectmark/assets/20875363/e5a5f107-0f52-4dfb-a43d-9a2ca87cd3f1)
+
+
+## Technologies Used
+Next.js
+
+TypeScript
+
+CSS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -26,9 +44,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
