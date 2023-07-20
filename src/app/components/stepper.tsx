@@ -1,5 +1,5 @@
 import { STEPS } from '../utilities'
-import Step from './step'
+import Step from './Step'
 import styles from './stepper.module.css'
 
 export default function Stepper() {
