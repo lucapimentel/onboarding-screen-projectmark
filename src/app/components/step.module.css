@@ -1,0 +1,36 @@
+.step {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.step>span {
+    font-size: xx-small;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.stepInfo {
+    background-color: #FFFF;
+    border: 1px solid var(--french-gray);
+    border-radius: 17px;
+    padding: 14px 20px;
+    font-weight: 500;
+
+    &.stepInfoActive {
+        background-color: var(--prussian-blue);
+        border-color: var(--prussian-blue);
+        color: #FFFF;
+    }
+}
+
+@media (max-width: 767px) {
+    .stepInfo {
+        padding: 10px 17px;
+    }
+
+    .step>span {
+        font-size: 7px;
+    }
+}

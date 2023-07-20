@@ -1,0 +1,93 @@
+:root {
+  /* CSS HEX */
+  --lavender-blush: #FFF2F6ff;
+  --mimi-pink: #FFDAE5ff;
+  --rose-taupe: #915663ff;
+  --orchid-pink: #FFC0D3ff;
+  --azure-web: #DFF5F7ff;
+  --celeste: #ABEDF2ff;
+  --dark-slate-gray: #2E5D61ff;
+  --tiffany-blue: #82DEE6ff;
+  --alice-blue: #E7F4FFff;
+  --uranian-blue: #C0E4FFff;
+  --indigo-dye: #18517Aff;
+  --light-sky-blue: #9AD2FFff;
+  --seashell: #FEF6EFff;
+  --almond: #FFE5CDff;
+  --kobicha: #6C4620ff;
+  --light-orange: #FFD7B4ff;
+  --magnolia: #F7F1FFff;
+  --alice-blue-2: #F2F7FAff;
+  --true-blue: #1F62D2ff;
+  --prussian-blue: #293446ff;
+  --french-gray: #CCD6E1ff;
+  --alice-blue-3: #EEF2F7ff;
+  --pale-purple: #EADAFFff;
+  --mauve: #DBC0FFff;
+  --ultra-violet: #56527Cff;
+  --alice-blue-4: #e2e8f0;
+  --paynes-gray: #546073ff;
+
+  /* CSS HSL */
+  --pale-purple: hsla(266, 100%, 93%, 1);
+  --lavender-blush: hsla(342, 100%, 97%, 1);
+  --azure-web: hsla(185, 60%, 92%, 1);
+  --alice-blue: hsla(207, 100%, 95%, 1);
+  --seashell: hsla(28, 88%, 97%, 1);
+  --magnolia: hsla(266, 100%, 97%, 1);
+  --alice-blue-2: hsla(202, 44%, 96%, 1);
+  --true-blue: hsla(218, 74%, 47%, 1);
+  --prussian-blue: hsla(217, 26%, 22%, 1);
+  --french-gray: hsla(211, 26%, 84%, 1);
+  --alice-blue-3: hsla(213, 36%, 95%, 1);
+  --mauve: hsla(266, 100%, 88%, 1);
+
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 7px 0;
+  background-color: #000;
+}
+
+.button {
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 12px 22px;
+  font-weight: bold;
+  outline: none;
+
+  &.primary {
+    border: 1px solid var(--true-blue);
+    background-color: var(--true-blue);
+    color: #FFFF;
+  }
+
+  &.primary:hover {
+    background-color: var(--prussian-blue);
+    border-color: var(--prussian-blue);
+  }
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #FFFF;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .button {
+    padding: 10px 17px;
+  }
+}

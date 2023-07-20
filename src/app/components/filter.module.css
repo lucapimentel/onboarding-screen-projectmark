@@ -1,0 +1,91 @@
+.contentHeader {
+    grid-area: content-header;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.controlContainer {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.contentHeaderControls {
+    border: 1px solid var(--french-gray);
+    padding: 12px 10px;
+    position: relative;
+    border-radius: 10px;
+    width: 11%;
+
+    &.contentHeaderControlsActive {
+        border: 2px solid var(--true-blue);
+    }
+
+    &.contentHeaderControlsActive::after {
+        content: '';
+        position: absolute;
+        border: 1px solid var(--true-blue);
+        border-color: white transparent;
+        border-width: 10px 12px 0 12px;
+        bottom: -7px;
+        left: 45%;
+    }
+
+    &.contentHeaderControlsActive::before {
+        content: '';
+        position: absolute;
+        border: 1px solid var(--true-blue);
+        border-color: var(--true-blue) transparent;
+        border-width: 10px 12px 0 12px;
+        bottom: -10px;
+        left: 45%;
+    }
+
+}
+
+.contentHeaderControlsActive:hover::after {
+    border-color: var(--alice-blue-3) transparent;
+}
+
+.contentHeaderControls:hover {
+    background-color: var(--alice-blue-3);
+}
+
+@media (max-width: 767px) {
+    .controlContainer {
+        flex-flow: column;
+        padding: 20px;
+    }
+
+    .contentHeaderControls {
+        width: 100%;
+    }
+
+    .contentHeader {
+        padding: 10px;
+    }
+
+    .contentHeader>h2 {
+        font-size: medium;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .controlContainer {
+        flex-flow: row;
+    }
+
+    .contentHeaderControls {
+        width: 100%;
+    }
+
+    .contentHeader {
+        padding: 10px;
+    }
+}

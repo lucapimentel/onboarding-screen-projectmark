@@ -1,0 +1,24 @@
+.stepsContainer {
+    display: flex;
+    flex-flow: row;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 767px) {
+    .stepsContainer {
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .stepsContainer {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1250px) {
+    .stepsContainer {
+        width: 30%;
+    }
+}

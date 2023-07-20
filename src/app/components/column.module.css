@@ -1,0 +1,71 @@
+.gridColumn {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    width: 100%;
+    min-height: 52vh;
+    padding: 15px 5px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.gridColumnHeader {
+    padding: 0px 10px;
+    text-transform: uppercase;
+}
+
+.gridColumnInfo {
+    width: 60%;
+    min-height: 20px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.info {
+    min-width: 45px;
+    min-height: 20px;
+    padding: 2px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.infoContent {
+    padding: 0 10px;
+}
+
+.cardContainer {
+    width: 100%;
+    height: 35%;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+/* Media queries for larger screens */
+@media (max-width: 767px) {
+    .gridColumnHeader {
+        padding: 0px 10px;
+        font-size: x-small;
+    }
+
+    .cardContainer {
+        height: 25vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .gridColumnHeader {
+        padding: 0px 10px;
+        font-size: x-small;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1306px) {
+    .gridColumnHeader {
+        padding: 0px 10px;
+        font-size: x-small;
+    }
+}
