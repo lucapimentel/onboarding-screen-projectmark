@@ -3,11 +3,13 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
 }
 
 .controlContainer {
     width: 100%;
+    height: 35%;
     display: flex;
     flex-flow: row;
     justify-content: center;
